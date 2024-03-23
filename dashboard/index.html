@@ -14,58 +14,41 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg ">
+   
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-            <i class="bi bi-columns-gap me-4"></i>
-            <div class="link_name " style=" font-size:4vh; font-weight:bold; color:#313d44">Dabang</div>
-
-
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
-                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                <ul class="navbar-nav me-2"  style="position:relative; left:15vh;">
-                    <a class="navbar-brand" href="#">Dashboard</a>
-                <li>
-                    <form class="search d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-primary" type="submit">Search</button>
-                    </form>
-                </li>
-                <li class="nav-item dropend" style="position:relative; left:10px;">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                        aria-expanded="false">ENG(Us)
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">India</a></li>
-                        <li><a class="dropdown-item" href="#">colombia</a></li>
-                        <li><a class="dropdown-item" href="#">France</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <div class="notification" style="position:relative; left:20vh;">
-                        <i class="bi bi-bell" style=" color: #1d1c1c; position:relative; left:50px; top:10px;"></i>
-                    </div>
-                </li>
-                <li>
-                    <div class="profile-logo dropstart">
-                        <div class="dropdown-toggle" data-bs-toggle="dropdown"><img src="1.jpg">
-                            <ul class="dropdown-menu" style="background-color: #00668c;">
-                                <li><a href="#" class="dropdown-item">Sign Up</a></li>
-                                <li><a href="#" class="dropdown-item">Log In</a></li>
-                                <li><a href="#" class="dropdown-item">Logout</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </li>
-                </ul>
-
-            </div>
+          <a class="navbar-brand" href="#">Dashboard</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+    
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+    
+            </form>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="display: flex; place-items: center;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Eng(US) <i class="bi bi-chevron-down"
+                    style=" padding-left:  20px;"></i> </a>
+              </li>
+    
+              <li class="nav-item">
+                <a class="nav-link" style="font-size: 15px; display: flex; place-items: center; gap: 8px; " href="#"
+                  style="display: flex;">
+                  <i class="bi bi-bell"
+                    style=" background-color: rgb(233, 226, 227); color: #f3b809; height: 30px; width: 33px; display: flex; justify-content: center;  place-items: center;"></i>
+                  <img src="man.jpeg" alt=""> Aditya <i class="bi bi-chevron-down" style="padding-left: 20px;"></i> </a>
+                </a>
+              </li>
+            </ul>
+    
+          </div>
         </div>
-    </nav>
- 
-        <div class="offcanvas-header" style="background-color:#d4eaf7;">
+      </nav>
+   
+    <div class="offcanvas-header" style="background-color:#d4eaf7;">
             <div class="menu-content " style="text-wrap:wrap;">
                 <ul class="menu-item" style="padding:1rem !important;">
                     <li class="item">
@@ -73,6 +56,7 @@
                             <i class="bi bi-grid fa-10x"></i>
                             <span class="link_name">Dashboard</span>
                         </a>
+                        <br>
                         <span class="tooltip">Dashboard</span>
                     </li>
                     <li class="item">
